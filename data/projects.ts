@@ -1,0 +1,58 @@
+import type { Project } from '@/models'
+
+export const projects: Project[] = [
+  {
+    id: 'simulator-3d',
+    num: '01',
+    title: 'Simulador 3D para Licencias de Conducción',
+    description: 'Simulador de manejo en entornos urbanos virtuales con detección de infracciones.',
+    longDescription:
+      'Trabajo de grado en Ingeniería de Software. Simulador 3D desarrollado en Unity para evaluar el comportamiento de conductores en entornos virtuales urbanos. Recrea escenarios reales, analiza las acciones del usuario y detecta infracciones para apoyar los procesos de evaluación para la obtención de licencias de conducción.',
+    tags: ['Unity', 'C#', 'Firebase', '3D Simulation'],
+    tagColor: 'cyan',
+    status: 'in-progress',
+    statusLabel: 'En desarrollo',
+    repoUrl: 'https://github.com/cristian1024-rua',
+    liveUrl: null,
+    icon: '🚗',
+    bgGradient: 'from-[#0d1424] via-[#1a2640] to-[#0f1e35]',
+    bgPattern: 'grid',
+    type: 'Trabajo de Grado',
+  },
+  {
+    id: 'tourism-platform',
+    num: '02',
+    title: 'Plataforma de Sitios Turísticos con IA',
+    description: 'App web con recomendación inteligente de sitios turísticos usando Gemini API.',
+    longDescription:
+      'Aplicación web enfocada en la recomendación y visualización de sitios turísticos, integrando técnicas de inteligencia artificial con la Gemini API para análisis de información y mejora de la experiencia del usuario. El proyecto cuenta con un avance del 80% con lógica de recomendación personalizada y presentación de información relevante.',
+    tags: ['Dart', 'C++', 'Gemini API', 'IA'],
+    tagColor: 'emerald',
+    status: 'in-progress',
+    statusLabel: '80% completado',
+    repoUrl: 'https://github.com/cristian1024-rua',
+    liveUrl: null,
+    icon: '🗺️',
+    bgGradient: 'from-[#0d1a1a] via-[#0d2420] to-[#0a1a14]',
+    bgPattern: 'dots',
+    type: 'Proyecto Académico',
+  },
+  {
+    id: 'portfolio',
+    num: '03',
+    title: 'Portafolio Personal',
+    description: 'Este portafolio — construido con Next.js 16, TypeScript y TailwindCSS.',
+    longDescription:
+      'Portafolio profesional construido con Next.js 14 App Router, TypeScript strict, TailwindCSS, Framer Motion para animaciones, Context API para dark mode, API Route para formulario de contacto con Resend, e integración con la GitHub API para mostrar repositorios en tiempo real.',
+    tags: ['Next.js', 'TypeScript', 'TailwindCSS', 'Framer Motion'],
+    tagColor: 'blue',
+    status: 'completed',
+    statusLabel: 'Completado',
+    repoUrl: 'https://github.com/cristian1024-rua',
+    liveUrl: null,
+    icon: '💼',
+    bgGradient: 'from-[#0d1020] via-[#101830] to-[#0a1020]',
+    bgPattern: 'circuit',
+    type: 'Proyecto Personal',
+  },
+]
