@@ -3,10 +3,10 @@ import type { Experience } from '@/models'
 export const experiences: Experience[] = [
   {
     id: 'coorponarino',
-    period: 'Mayo 2024 — Abril 2025',
+    period: 'Junio 2025 — Diciembre 2025',
     role: 'Software Developer',
     company: 'Coorponariño · Universidad Cooperativa de Colombia',
-    type: 'Contrato prestación de servicios',
+    type: '',
     description:
       'Desarrollo de aplicaciones web backend y fullstack en entorno de producción real, trabajando en un equipo multidisciplinario bajo metodologías ágiles.',
     achievements: [
@@ -20,8 +20,8 @@ export const experiences: Experience[] = [
     tags: ['Spring Boot', 'Apache Camel', 'React', 'Next.js', 'TailwindCSS', 'JUnit', 'Docker', 'SQL'],
   },
   {
-    id: 'ucc',
-    period: '2022 — 2026',
+    id: 'UCC',
+    period: '2025 — 2026',
     role: 'Desarrollador — Proyectos de Grado',
     company: 'Universidad Cooperativa de Colombia',
     type: 'Formación académica · Pasto, Nariño',
